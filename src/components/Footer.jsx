@@ -59,7 +59,7 @@ const Footer = () => {
         </a>
       </div>
       <p class="md:mr-5 text-center">
-        Developed and Designed by <b>IT PHNOM DEN</b> v2024_01
+        Designed and Developed by <b>IT Phnom Den</b>
       </p>
     </div>
   );

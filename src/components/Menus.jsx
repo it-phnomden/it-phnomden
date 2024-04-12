@@ -23,10 +23,7 @@ const menus = [
 
 const Menus = () => {
   return (
-    <div
-      name="menu"
-      className="max-sm:h-[calc(100vh-100px)] h-[calc(100vh-50px)] flex flex-col justify-center max-md:pt-[70px]"
-    >
+    <div name="menu" >
       <div>
         <div data-aos="fade-right" data-aos-offset="100"
           className="grid grid-cols-2 gap-2 md:grid-cols-5">

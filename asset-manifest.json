@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/it-phnomden/static/css/main.a0ad85ec.css",
+    "main.js": "/it-phnomden/static/js/main.88a51e33.js",
+    "static/media/game.png": "/it-phnomden/static/media/game.8d1f0d44786d2548e2e5.png",
+    "static/media/book.png": "/it-phnomden/static/media/book.15e266d33129fe618581.png",
+    "static/media/music.png": "/it-phnomden/static/media/music.116ad8b67ff3316e8a28.png",
+    "index.html": "/it-phnomden/index.html",
+    "main.a0ad85ec.css.map": "/it-phnomden/static/css/main.a0ad85ec.css.map",
+    "main.88a51e33.js.map": "/it-phnomden/static/js/main.88a51e33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0ad85ec.css",
+    "static/js/main.88a51e33.js"
+  ]
+}

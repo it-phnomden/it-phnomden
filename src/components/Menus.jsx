@@ -2,20 +2,27 @@ import React from "react";
 import game from "../assets/game.png"
 import book from "../assets/book.png"
 import music from "../assets/music.png"
+import program from "../assets/program.png"
 
 const menus = [
   {
     id: 1,
-    src: game,
-    title: "PC GAME",
-  },
-  {
-    id: 2,
     src: book,
     title: "BOOK STORE",
   },
   {
+    id: 2,
+    src: game,
+    title: "PC GAME",
+  },
+  {
     id: 3,
+    src: program,
+    title: "PC PROGRAM",
+  },
+
+  {
+    id: 4,
     src: music,
     title: "MUSIC CAMP",
   }

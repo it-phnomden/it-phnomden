@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  BsGithub,
-  BsTelegram,
-  BsYoutube,
-  BsSkype,
-  BsLinkedin,
-} from "react-icons/bs";
-import { FaFacebook } from "react-icons/fa";
+import { BsGithub, BsTelegram, BsYoutube, BsSkype } from "react-icons/bs";
+import { FaFacebook, FaFacebookMessenger } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,18 +10,18 @@ const Footer = () => {
     >
       <div className="flex social-link">
         <a
-          href="https://www.facebook.com/IT.phnomden?mibextid=LQQJ4d"
+          href="https://www.facebook.com/IT.phnomden"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebook size={25} />
         </a>
         <a
-          href="https://github.com/PiSethSeam"
+          href="https://t.me/it_phnomden"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <BsGithub size={25} />
+          <BsTelegram size={25} />
         </a>
         <a
           href="https://youtube.com/@pisethseam7746"
@@ -35,27 +29,6 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <BsYoutube size={25} />
-        </a>
-        <a
-          href="https://t.me/PiSethSeam"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsTelegram size={25} />
-        </a>
-        <a
-          href="https://join.skype.com/invite/VueXnSZyMpar"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsSkype size={25} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/piseth-seam-a74264178/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsLinkedin size={25} />
         </a>
       </div>
       <p class="md:mr-5 text-center">

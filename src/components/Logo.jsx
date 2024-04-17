@@ -1,10 +1,17 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Logo = () => {
   return (
     <div data-aos="fade-down" data-aos-offset="100">
-      <img src={logo} alt="html.png" className="h-48 sm:h-72 object-contain" />
+      <Link to="/">
+        <img
+          src={logo}
+          alt="html.png"
+          className="h-48 sm:h-72 object-contain"
+        />
+      </Link>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
-import game from "../assets/game.png"
-import book from "../assets/book.png"
-import music from "../assets/music.png"
-import program from "../assets/program.png"
+import game from "../assets/game.png";
+import book from "../assets/book.png";
+import music from "../assets/music.png";
+import program from "../assets/program.png";
 
 const menus = [
   {
@@ -25,27 +25,27 @@ const menus = [
     id: 4,
     src: music,
     title: "MUSIC CAMP",
-  }
-]
+  },
+];
 
 const Menus = () => {
   return (
-    <div name="menu" >
+    <div name="menu">
       <div>
-        <div data-aos="fade-right" data-aos-offset="100"
-          className="grid grid-cols-2 gap-2 md:grid-cols-5">
-          {
-            menus.map(({ id, src, title }) => (
-              <div
-                key={id}
-                className={`dark:bg-white dark:bg-opacity-5 bg-black bg-opacity-5 rounded-2xl px-4 py-2  flex flex-col items-center`}>
-                <img src={src} alt="html.png"
-                  className="h-32 object-contain"
-                />
+        <div
+          data-aos="fade-right"
+          data-aos-offset="100"
+          className="grid grid-cols-2 gap-2 md:grid-cols-5"
+        >
+          {menus.map(({ id, src, title }) => (
+            <button class="bg-white bg-opacity-5 rounded-2xl px-4 py-2  flex flex-col items-center group relative overflow-hidden  transition duration-700 ease-in-out border-transparent border-2 hover:border-white dark:hover:bg-opacity-20 hover:bg-opacity-25">
+              <span class="ease absolute right-0 -mt-12 h-72 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-500 group-hover:-translate-x-64"></span>
+              <span class="relative">
+                <img src={src} alt="html.png" className="h-32 object-contain" />
                 <p>{title}</p>
-              </div>
-            ))
-          }
+              </span>
+            </button>
+          ))}
         </div>
       </div>
     </div>

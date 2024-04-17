@@ -1,6 +1,6 @@
 import React from "react";
-import { BsGithub, BsTelegram, BsYoutube, BsSkype } from "react-icons/bs";
-import { FaFacebook, FaFacebookMessenger } from "react-icons/fa";
+import { BsTelegram, BsYoutube } from "react-icons/bs";
+import { FaFacebook} from "react-icons/fa";
 
 const Footer = () => {
   return (

@@ -16,7 +16,7 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className="min-h-screen flex flex-col justify-between items-center mx-2">
+    <div className="max-w-screen-lg mx-auto min-h-screen flex flex-col justify-between items-center">
       <NavBar />
       <BrowserRouter>
         <Routes>

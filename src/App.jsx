@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import Menus from "./components/Menus";
+import BookStore from "./components/pages/Book-Store";
+import GameStore from "./components/pages/Game-Store";
+import PcProgramStore from "./components/pages/Pc-Program-Store";
+import MusicCamp from "./components/pages/Music-Camp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer";
@@ -19,8 +22,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/it-phnomden" element={<Home />} />
-          <Route path="Menus" element={<Menus />} />
-          {/* <Route path="Games" element={<Menus />} /> */}
+          <Route path="/BookStore" element={<BookStore />} />
+          <Route path="/GameStore" element={<GameStore />} />
+          <Route path="/PcProgramStore" element={<PcProgramStore />} />
+          <Route path="/MusicCamp" element={<MusicCamp />} />
         </Routes>
       </BrowserRouter>
       <Footer />

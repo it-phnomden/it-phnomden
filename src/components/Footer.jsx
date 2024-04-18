@@ -1,5 +1,5 @@
 import React from "react";
-import { BsTelegram, BsYoutube } from "react-icons/bs";
+import { BsPersonBadgeFill, BsTelegram, BsYoutube } from "react-icons/bs";
 import { FaFacebook} from "react-icons/fa";
 
 const Footer = () => {
@@ -9,6 +9,13 @@ const Footer = () => {
     text-slate-00 flex flex-col md:flex-row justify-evenly items-center"
     >
       <div className="flex social-link">
+      <a
+          href="https://pisethseam.github.io/maportfolio/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsPersonBadgeFill size={25} />
+        </a>
         <a
           href="https://www.facebook.com/IT.phnomden"
           target="_blank"

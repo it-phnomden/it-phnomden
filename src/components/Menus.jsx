@@ -47,7 +47,7 @@ const Menus = () => {
               <span class="ease absolute right-0 -mt-12 h-72 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-500 group-hover:-translate-x-64"></span>
               <span class="relative">
                 <img src={src} alt="html.png" className="h-32 object-contain" />
-                <p>{title}</p>
+                <p className="text-center">{title}</p>
               </span>
             </Link>
           ))}

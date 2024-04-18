@@ -39,7 +39,7 @@ const Footer = () => {
         </a>
       </div>
       <p class="md:mr-5 text-center">
-        Designed and Developed by <b>IT Phnom Den</b>
+        Designed and Developed by <b>អាយធី ភ្នំដិន</b>
       </p>
     </div>
   );

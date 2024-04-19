@@ -1,11 +1,12 @@
 import React from "react";
 import { FaRegHeart, FaDownload } from "react-icons/fa";
-import got from "../../assets/games/Ghost-of-Tsushima.jpg";
-import lop from "../../assets/games/Lies of P.jpg";
-import hzd from "../../assets/games/Horizon-Zero-Dawn.jpg";
-import hfw from "../../assets/games/Horizon-Forbidden-West.jpg";
-import spm from "../../assets/games/Marvels Spider Man Miles Morales.jpg";
-import gow from "../../assets/games/God of war.jpg";
+import got from "../../assets/games/got.jpg";
+import lop from "../../assets/games/lop.jpg";
+import hzd from "../../assets/games/hzd.jpg";
+import hfw from "../../assets/games/hfw.jpg";
+import spm from "../../assets/games/spm.jpg";
+import gow from "../../assets/games/gow.jpg";
+import { Link } from "react-router-dom";
 
 const gameInfo = [
   {
@@ -57,33 +58,27 @@ const GameStore = () => {
     <div
       data-aos="fade-right"
       data-aos-offset="100"
-      className="grid grid-cols-2 gap-2 md:grid-cols-4 w-full px-1 mt-20"
+      className="grid grid-cols-2 gap-2 md:grid-cols-4 px-1 mt-20"
     >
       {gameInfo.map(({ id, cover, title, likeCount, downCount }) => (
         <div
-          className="bg-white bg-opacity-10 dark:bg-black dark:bg-opacity-10 p-3 
-         rounded-lg flex flex-col items-center gap-1 relative"
+          className="bg-white bg-opacity-20 dark:bg-black dark:bg-opacity-20
+         rounded-2xl p-4 flex flex-col gap-2"
         >
-          <div className="relative">
-            <p className="absolute bottom-0 text-white font-bold text-lg text-center w-full bg-black pt-1 bg-opacity-30 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-              {title}
-            </p>
-            <img
-              src={cover}
-              alt="not found.png"
-              className="sm:h-56 h-48 object-contain rounded-lg"
-            />
-          </div>
-
-          <div className="flex items-center gap-2">
-            <FaRegHeart />
-            <p>{likeCount}</p>
-            <FaDownload />
-            <p>{downCount}</p>
-          </div>
-          <button className="btn-primary text-white bg-opacity-10 rounded-2xl px-5 py-1">
-            Download
-          </button>
+          <img
+            src={cover}
+            alt="not found.png"
+            className="h-fit object-contain rounded-lg"
+          />
+          <p className="font-bold">{title}</p>
+          <p className="opacity-50">PC Game</p>
+          <Link
+            // to={page}
+            class="dark:bg-black dark:bg-opacity-10 bg-white bg-opacity-10 rounded-lg px-4 py-2 flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out border-transparent border-2 hover:border-white dark:hover:bg-opacity-20 hover:bg-opacity-25 active:scale-105 active:duration-100"
+          >
+            <span class="ease absolute right-0 -mt-12 h-72 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-500 group-hover:-translate-x-64"></span>
+            Get download link
+          </Link>
         </div>
       ))}
     </div>

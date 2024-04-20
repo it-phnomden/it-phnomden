@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import BookStore from "./components/pages/Book-Store";
 import GameStore from "./components/pages/Game-Store";
+import GameStoreDetail from "./components/pages/Game-Store-Detail";
 import PcProgramStore from "./components/pages/Pc-Program-Store";
 import MusicCamp from "./components/pages/Music-Camp";
 import AOS from "aos";
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/GameStore" element={<GameStore />} />
           <Route path="/PcProgramStore" element={<PcProgramStore />} />
           <Route path="/MusicCamp" element={<MusicCamp />} />
+          <Route path="/GameStoreDetail" element={<GameStoreDetail />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -70,14 +70,14 @@ const GameStore = () => {
             alt="not found.png"
             className="h-fit object-contain rounded-lg"
           />
-          <p className="font-bold">{title}</p>
-          <p className="opacity-50">PC Game</p>
+          <p className="font-bold sm:text-[16px] text-[11px]">{title}</p>
+          <p className="opacity-50 sm:text-[16px] text-[11px]">PC Game</p>
           <Link
             // to={page}
-            class="dark:bg-black dark:bg-opacity-10 bg-white bg-opacity-10 rounded-lg px-4 py-2 flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out border-transparent border-2 hover:border-white dark:hover:bg-opacity-20 hover:bg-opacity-25 active:scale-105 active:duration-100"
+            class="dark:bg-black dark:bg-opacity-10 bg-white bg-opacity-10 rounded-lg px-4 py-2 flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out border-transparent border-2 hover:border-[#dadad9dd] dark:hover:border-gray-800 dark:hover:bg-opacity-20 hover:bg-opacity-25 active:scale-105 active:duration-100"
           >
             <span class="ease absolute right-0 -mt-12 h-72 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-500 group-hover:-translate-x-64"></span>
-            Get download link
+            Get
           </Link>
         </div>
       ))}

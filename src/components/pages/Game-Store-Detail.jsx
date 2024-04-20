@@ -17,7 +17,7 @@ const GameStoreDetail = (props) => {
         />
         <p className="font-bold sm:text-[16px] text-[11px]">{gameInfo.title}</p>
         <p className="opacity-50 sm:text-[16px] text-[11px]">PC Game</p>
-      </div>
+      </div> 
     </div>
   );
 };

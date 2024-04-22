@@ -16,24 +16,8 @@
   body {
     @apply light-mode dark:dark-mode;
   }
-  hr {
-    @apply bg-white
-  }
   .social-link>a{
     @apply mx-3 md:mx-5 md:hover:opacity-70
-  }
-  #form {
-    @apply flex flex-col w-fit max-md:w-full max-md:items-center
-  }
-  #form > input, textarea {
-    @apply my-1 rounded-3xl w-[450px] px-5 py-3 outline-none text-black max-md:w-[90vw]
-    bg-[#F4F6F8] dark:bg-[#282C34] dark:text-white
-  }
-  #form > button {
-    @apply w-32 my-1 rounded-full p-3 btn-primary text-white mx-auto
-  }
-  #check-out>a{
-    @apply mt-3 active:scale-125 duration-100
   }
 }
 

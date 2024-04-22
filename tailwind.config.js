@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+const colors = require('tailwindcss/colors')
+module.exports = withMT({
     content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -41,9 +43,14 @@ module.exports = {
       'siemreap': ['Siemreap', 'sans-serif'],
       'suwannaphum': ['Suwannaphum', 'sans-serif'],
       'taprom': ['Taprom', 'sans-serif'],
+    },
+    colors: {
+      ...colors,
+      amber: colors.amber,
+      emerald: colors.emerald,
     }
   },
   plugins: [require("daisyui")],
   darkMode: 'class',
-}
+});
 

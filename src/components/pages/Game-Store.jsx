@@ -9,7 +9,7 @@ const GameStore = () => {
       <Carousel
         autoplay={true}
         loop={true}
-        className="rounded-lg sm:h-60 h-fit dark:bg-black dark:bg-opacity-20 bg-white bg-opacity-20"
+        className="rounded-lg sm:h-60 h-fit dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
@@ -29,7 +29,7 @@ const GameStore = () => {
             key={key}
             src={data.cover}
             alt="Not found"
-            className="h-full w-full object-contain rounded-lg"
+            className="h-full w-full object-contain p-2"
           />
         ))}
       </Carousel>
@@ -37,7 +37,7 @@ const GameStore = () => {
         {gameInfo.map((data, key) => (
           <div
             key={key}
-            className="bg-white bg-opacity-20 dark:bg-black dark:bg-opacity-20
+            className="bg-gray-900 bg-opacity-10 dark:bg-black dark:bg-opacity-20
          rounded-2xl p-2 flex flex-col gap-1"
           >
             <img

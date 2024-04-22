@@ -21,13 +21,12 @@ const App = () => {
       <NavBar />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/it-phnomden" element={<Home />} />
-          <Route path="/BookStore" element={<BookStore />} />
-          <Route path="/GameStore" element={<GameStore />} />
-          <Route path="/PcProgramStore" element={<PcProgramStore />} />
-          <Route path="/MusicCamp" element={<MusicCamp />} />
-          <Route path="/GameStoreDetail" element={<GameStoreDetail />} />
+          <Route path="/it-phnomden/BookStore" element={<BookStore />} />
+          <Route path="/it-phnomden/GameStore" element={<GameStore />} />
+          <Route path="/it-phnomden/PcProgramStore" element={<PcProgramStore />} />
+          <Route path="/it-phnomden/MusicCamp" element={<MusicCamp />} />
+          <Route path="/it-phnomden/GameStoreDetail" element={<GameStoreDetail />} />
         </Routes>
       </BrowserRouter>
       <Footer />

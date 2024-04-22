@@ -10,26 +10,26 @@ const menus = [
     id: 1,
     src: book,
     title: "BOOK STORE",
-    page: "/BookStore",
+    page: "/it-phnomden/BookStore",
   },
   {
     id: 2,
     src: game,
     title: "PC GAME",
-    page: "/GameStore",
+    page: "/it-phnomden/GameStore",
   },
   {
     id: 3,
     src: program,
     title: "PC PROGRAM",
-    page: "/PcProgramStore",
+    page: "/it-phnomden/PcProgramStore",
   },
 
   {
     id: 4,
     src: music,
     title: "MUSIC CAMP",
-    page: "/MusicCamp",
+    page: "/it-phnomden/MusicCamp",
   },
 ];
 

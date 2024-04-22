@@ -48,7 +48,7 @@ const GameStore = () => {
             <p className="font-bold sm:text-[16px] text-[11px]">{data.title}</p>
             <p className="opacity-50 sm:text-[16px] text-[11px]">PC Game</p>
             <Link
-              to="/GameStoreDetail"
+              to="/it-phnomden/GameStoreDetail"
               state={data}
               class="dark:bg-black dark:bg-opacity-20 bg-white bg-opacity-20 rounded-lg px-4 sm:py-2 py-[7px] flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out dark:hover:bg-opacity-30 dark:hover:border-gray-600 hover:bg-opacity-30 border-[0.5px] border-transparent hover:border-white hover: active:scale-105 active:duration-100"
             >

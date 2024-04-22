@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Logo = () => {
   return (
     <div data-aos="fade-down" data-aos-offset="100">
-      <Link to="/">
+      <Link to="/it-phnomden">
         <img
           src={logo}
           alt="html.png"

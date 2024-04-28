@@ -1,7 +1,7 @@
 import React from "react";
 import game from "../assets/game.png";
 import book from "../assets/book.png";
-import music from "../assets/music.png";
+import betterup from "../assets/betterup-your-life.png";
 import program from "../assets/program.png";
 import { Link } from "react-router-dom";
 
@@ -14,22 +14,21 @@ const menus = [
   },
   {
     id: 2,
+    src: betterup,
+    title: "BETTER UP YOUR MIND",
+    page: "/it-phnomden/MusicCamp",
+  },
+  {
+    id: 3,
     src: game,
     title: "PC GAME",
     page: "/it-phnomden/GameStore",
   },
   {
-    id: 3,
+    id: 4,
     src: program,
     title: "PC PROGRAM",
     page: "/it-phnomden/PcProgramStore",
-  },
-
-  {
-    id: 4,
-    src: music,
-    title: "MUSIC CAMP",
-    page: "/it-phnomden/MusicCamp",
   },
 ];
 
@@ -48,7 +47,7 @@ const Menus = () => {
               class="bg-white bg-opacity-5 rounded-2xl px-4 py-2 flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out border-transparent border-2 hover:border-white dark:hover:bg-opacity-20 hover:bg-opacity-25 active:scale-105 active:duration-100"
             >
               <span class="ease absolute right-0 -mt-12 h-72 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-500 group-hover:-translate-x-64"></span>
-              <span class="relative">
+              <span class="flex flex-col">
                 <img src={src} alt="html.png" className="h-32 object-contain" />
                 <p className="text-center">{title}</p>
               </span>

@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/it-phnomden/static/css/main.0174d98f.css",
-    "main.js": "/it-phnomden/static/js/main.fcc5d411.js",
+    "main.css": "/it-phnomden/static/css/main.c3b4bda0.css",
+    "main.js": "/it-phnomden/static/js/main.0531dbfe.js",
+    "static/media/Rich-Dad-Poor-Dad.pdf": "/it-phnomden/static/media/Rich-Dad-Poor-Dad.63ddda4628dfe599fe2d.pdf",
     "static/media/game.png": "/it-phnomden/static/media/game.8d1f0d44786d2548e2e5.png",
     "static/media/coming-soon.png": "/it-phnomden/static/media/coming-soon.b2420d6754c2e60a201f.png",
     "static/media/book.png": "/it-phnomden/static/media/book.15e266d33129fe618581.png",
     "static/media/program.png": "/it-phnomden/static/media/program.eee45be096f066219840.png",
-    "static/media/music.png": "/it-phnomden/static/media/music.116ad8b67ff3316e8a28.png",
+    "static/media/betterup-your-life.png": "/it-phnomden/static/media/betterup-your-life.bb4ee718cc98468d93cd.png",
+    "static/media/Rich-Dad-Poor-Dad.png": "/it-phnomden/static/media/Rich-Dad-Poor-Dad.48e8d3a9fd26cfc92a3b.png",
     "static/media/hfw.jpg": "/it-phnomden/static/media/hfw.71520a5e2f6aac7db6b5.jpg",
     "static/media/hzd.jpg": "/it-phnomden/static/media/hzd.fd11b26e492eab465401.jpg",
     "static/media/Kena Bridge of Spirits.jpg": "/it-phnomden/static/media/Kena Bridge of Spirits.60e21d0f189580e707dc.jpg",
@@ -17,11 +19,11 @@
     "static/media/spm.jpg": "/it-phnomden/static/media/spm.0522a4ae59d8966b2467.jpg",
     "static/media/logo.png": "/it-phnomden/static/media/logo.575a79aa85e338061e4c.png",
     "index.html": "/it-phnomden/index.html",
-    "main.0174d98f.css.map": "/it-phnomden/static/css/main.0174d98f.css.map",
-    "main.fcc5d411.js.map": "/it-phnomden/static/js/main.fcc5d411.js.map"
+    "main.c3b4bda0.css.map": "/it-phnomden/static/css/main.c3b4bda0.css.map",
+    "main.0531dbfe.js.map": "/it-phnomden/static/js/main.0531dbfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.0174d98f.css",
-    "static/js/main.fcc5d411.js"
+    "static/css/main.c3b4bda0.css",
+    "static/js/main.0531dbfe.js"
   ]
 }

@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/it-phnomden/static/css/main.a713711a.css",
-    "main.js": "/it-phnomden/static/js/main.8df0aea0.js",
+    "main.css": "/it-phnomden/static/css/main.361676ff.css",
+    "main.js": "/it-phnomden/static/js/main.37da29ae.js",
     "static/media/Rich-Dad-Poor-Dad.pdf": "/it-phnomden/static/media/Rich-Dad-Poor-Dad.63ddda4628dfe599fe2d.pdf",
-    "static/media/pexels-jess-vide-5007008.jpg": "/it-phnomden/static/media/pexels-jess-vide-5007008.6be9c7f004a8304a125e.jpg",
-    "static/media/pexels-peggy-johnson-philip-waikoloa-867723-11718641.jpg": "/it-phnomden/static/media/pexels-peggy-johnson-philip-waikoloa-867723-11718641.09e90f41be07f1d668e9.jpg",
-    "static/media/pexels-pixabay-416676.jpg": "/it-phnomden/static/media/pexels-pixabay-416676.0118c2f70f6142d6ab00.jpg",
-    "static/media/pexels-pixabay-262325.jpg": "/it-phnomden/static/media/pexels-pixabay-262325.47b51677d5feb8d17323.jpg",
+    "static/media/4.jpg": "/it-phnomden/static/media/4.6be9c7f004a8304a125e.jpg",
+    "static/media/6.jpg": "/it-phnomden/static/media/6.09e90f41be07f1d668e9.jpg",
+    "static/media/2.jpg": "/it-phnomden/static/media/2.daffee13f010b22dd758.jpg",
+    "static/media/11.jpg": "/it-phnomden/static/media/11.03aefa21ab5c5d83e36d.jpg",
+    "static/media/10.jpg": "/it-phnomden/static/media/10.024e1c6afebd12dc8b4c.jpg",
+    "static/media/9.jpg": "/it-phnomden/static/media/9.0118c2f70f6142d6ab00.jpg",
+    "static/media/12.jpg": "/it-phnomden/static/media/12.f9819c6ede57cf5c99b8.jpg",
+    "static/media/7.jpg": "/it-phnomden/static/media/7.47b51677d5feb8d17323.jpg",
+    "static/media/3.jpg": "/it-phnomden/static/media/3.9c6ef54c2bf1b71de2f1.jpg",
+    "static/media/8.jpg": "/it-phnomden/static/media/8.01bb880773bfc913925e.jpg",
     "static/media/game.png": "/it-phnomden/static/media/game.8d1f0d44786d2548e2e5.png",
+    "static/media/1.jpg": "/it-phnomden/static/media/1.982f9048e3f83e7c2fe7.jpg",
     "static/media/coming-soon.png": "/it-phnomden/static/media/coming-soon.b2420d6754c2e60a201f.png",
+    "static/media/5.jpg": "/it-phnomden/static/media/5.6e29c2379f664904a90b.jpg",
     "static/media/book.png": "/it-phnomden/static/media/book.15e266d33129fe618581.png",
     "static/media/program.png": "/it-phnomden/static/media/program.eee45be096f066219840.png",
     "static/media/betterup-your-life.png": "/it-phnomden/static/media/betterup-your-life.bb4ee718cc98468d93cd.png",
@@ -23,11 +31,11 @@
     "static/media/spm.jpg": "/it-phnomden/static/media/spm.0522a4ae59d8966b2467.jpg",
     "static/media/logo.png": "/it-phnomden/static/media/logo.575a79aa85e338061e4c.png",
     "index.html": "/it-phnomden/index.html",
-    "main.a713711a.css.map": "/it-phnomden/static/css/main.a713711a.css.map",
-    "main.8df0aea0.js.map": "/it-phnomden/static/js/main.8df0aea0.js.map"
+    "main.361676ff.css.map": "/it-phnomden/static/css/main.361676ff.css.map",
+    "main.37da29ae.js.map": "/it-phnomden/static/js/main.37da29ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.a713711a.css",
-    "static/js/main.8df0aea0.js"
+    "static/css/main.361676ff.css",
+    "static/js/main.37da29ae.js"
   ]
 }

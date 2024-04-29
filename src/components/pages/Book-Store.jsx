@@ -5,19 +5,19 @@ import { Carousel } from "@material-tailwind/react";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import {} from "react-icons/ri";
 
-import p1 from "../../assets/books/qoutecover/1.jpg";
-import p2 from "../../assets/books/qoutecover/2.jpg";
-import p3 from "../../assets/books/qoutecover/3.jpg";
-import p4 from "../../assets/books/qoutecover/4.jpg";
-import p5 from "../../assets/books/qoutecover/5.jpg";
-import p6 from "../../assets/books/qoutecover/6.jpg";
-import p7 from "../../assets/books/qoutecover/7.jpg";
-import p8 from "../../assets/books/qoutecover/8.jpg";
-import p9 from "../../assets/books/qoutecover/9.jpg";
-import p10 from "../../assets/books/qoutecover/10.jpg";
-import p11 from "../../assets/books/qoutecover/11.jpg";
-import p12 from "../../assets/books/qoutecover/12.jpg";
-const qouteCover = [
+import p1 from "../../assets/books/quoteCover/1.jpg";
+import p2 from "../../assets/books/quoteCover/2.jpg";
+import p3 from "../../assets/books/quoteCover/3.jpg";
+import p4 from "../../assets/books/quoteCover/4.jpg";
+import p5 from "../../assets/books/quoteCover/5.jpg";
+import p6 from "../../assets/books/quoteCover/6.jpg";
+import p7 from "../../assets/books/quoteCover/7.jpg";
+import p8 from "../../assets/books/quoteCover/8.jpg";
+import p9 from "../../assets/books/quoteCover/9.jpg";
+import p10 from "../../assets/books/quoteCover/10.jpg";
+import p11 from "../../assets/books/quoteCover/11.jpg";
+import p12 from "../../assets/books/quoteCover/12.jpg";
+const quoteCover = [
   p1,
   p2,
   p3,
@@ -59,7 +59,7 @@ const BookStore = () => {
           <span className="relative">
             <img
               key={key}
-              src={qouteCover[Math.floor(Math.random() * qouteCover.length)]}
+              src={quoteCover[Math.floor(Math.random() * quoteCover.length)]}
               alt="Not found"
               className="h-full w-full object-cover rounded-lg"
             />

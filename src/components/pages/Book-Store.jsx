@@ -65,6 +65,7 @@ const BookStore = () => {
             />
             <div
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center
+              sm:w-[60%] w-[70%]
             sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]"
             >
               <p>{data.content}</p>

@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { bookInfo, qoutes } from "./data/book";
 import { Carousel } from "@material-tailwind/react";
+import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
+import {} from "react-icons/ri";
 
 import cover1 from "../../assets/books/qoutecover/pexels-jess-vide-5007008.jpg";
 import cover2 from "../../assets/books/qoutecover/pexels-peggy-johnson-philip-waikoloa-867723-11718641.jpg";
@@ -16,7 +18,7 @@ const BookStore = () => {
         autoplay={true}
         autoplayDelay={10000}
         loop={true}
-        className="rounded-bl-md  rounded-br-md sm:h-80 h-fit dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
+        className="rounded-bl-md sm:h-80 h-40  rounded-br-md dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
@@ -39,11 +41,15 @@ const BookStore = () => {
               alt="Not found"
               className="h-full w-full object-cover"
             />
-            <div className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[50%] text-center
-            sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
+            <div
+              className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[50%] text-center
+            sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]"
+            >
               <p>{data.content}</p>
-              <p>
+              <p className="flex items-center justify-center gap-2">
+                <RiDoubleQuotesL />
                 {data.author}
+                <RiDoubleQuotesR />
               </p>
             </div>
           </span>

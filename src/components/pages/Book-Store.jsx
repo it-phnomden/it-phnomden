@@ -13,12 +13,13 @@ const qouteCover = [cover1, cover2, cover3, cover4];
 
 const BookStore = () => {
   return (
-    <div data-aos="fade-right" data-aos-offset="100">
+    <div data-aos="fade-right" data-aos-offset="100"
+    className="p-2">
       <Carousel
         autoplay={true}
         autoplayDelay={10000}
         loop={true}
-        className="rounded-bl-md sm:h-80 h-40  rounded-br-md dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
+        className="rounded-lg sm:h-80 h-48 dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
@@ -39,7 +40,7 @@ const BookStore = () => {
               key={key}
               src={qouteCover[Math.floor(Math.random() * qouteCover.length)]}
               alt="Not found"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover rounded-lg"
             />
             <div
               className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-center

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/it-phnomden/static/css/main.b272a9ba.css",
-    "main.js": "/it-phnomden/static/js/main.21ace17d.js",
+    "main.css": "/it-phnomden/static/css/main.d5648c0f.css",
+    "main.js": "/it-phnomden/static/js/main.0a9134b2.js",
     "static/media/Rich-Dad-Poor-Dad.pdf": "/it-phnomden/static/media/Rich-Dad-Poor-Dad.63ddda4628dfe599fe2d.pdf",
     "static/media/pexels-jess-vide-5007008.jpg": "/it-phnomden/static/media/pexels-jess-vide-5007008.6be9c7f004a8304a125e.jpg",
     "static/media/pexels-peggy-johnson-philip-waikoloa-867723-11718641.jpg": "/it-phnomden/static/media/pexels-peggy-johnson-philip-waikoloa-867723-11718641.09e90f41be07f1d668e9.jpg",
@@ -23,11 +23,11 @@
     "static/media/spm.jpg": "/it-phnomden/static/media/spm.0522a4ae59d8966b2467.jpg",
     "static/media/logo.png": "/it-phnomden/static/media/logo.575a79aa85e338061e4c.png",
     "index.html": "/it-phnomden/index.html",
-    "main.b272a9ba.css.map": "/it-phnomden/static/css/main.b272a9ba.css.map",
-    "main.21ace17d.js.map": "/it-phnomden/static/js/main.21ace17d.js.map"
+    "main.d5648c0f.css.map": "/it-phnomden/static/css/main.d5648c0f.css.map",
+    "main.0a9134b2.js.map": "/it-phnomden/static/js/main.0a9134b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.b272a9ba.css",
-    "static/js/main.21ace17d.js"
+    "static/css/main.d5648c0f.css",
+    "static/js/main.0a9134b2.js"
   ]
 }

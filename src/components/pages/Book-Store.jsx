@@ -5,11 +5,32 @@ import { Carousel } from "@material-tailwind/react";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import {} from "react-icons/ri";
 
-import cover1 from "../../assets/books/qoutecover/pexels-jess-vide-5007008.jpg";
-import cover2 from "../../assets/books/qoutecover/pexels-peggy-johnson-philip-waikoloa-867723-11718641.jpg";
-import cover3 from "../../assets/books/qoutecover/pexels-pixabay-262325.jpg";
-import cover4 from "../../assets/books/qoutecover/pexels-pixabay-416676.jpg";
-const qouteCover = [cover1, cover2, cover3, cover4];
+import p1 from "../../assets/books/qoutecover/1.jpg";
+import p2 from "../../assets/books/qoutecover/2.jpg";
+import p3 from "../../assets/books/qoutecover/3.jpg";
+import p4 from "../../assets/books/qoutecover/4.jpg";
+import p5 from "../../assets/books/qoutecover/5.jpg";
+import p6 from "../../assets/books/qoutecover/6.jpg";
+import p7 from "../../assets/books/qoutecover/7.jpg";
+import p8 from "../../assets/books/qoutecover/8.jpg";
+import p9 from "../../assets/books/qoutecover/9.jpg";
+import p10 from "../../assets/books/qoutecover/10.jpg";
+import p11 from "../../assets/books/qoutecover/11.jpg";
+import p12 from "../../assets/books/qoutecover/12.jpg";
+const qouteCover = [
+  p1,
+  p2,
+  p3,
+  p4,
+  p5,
+  p6,
+  p7,
+  p8,
+  p9,
+  p10,
+  p11,
+  p12
+];
 
 const BookStore = () => {
   return (
@@ -43,7 +64,7 @@ const BookStore = () => {
               className="h-full w-full object-cover rounded-lg"
             />
             <div
-              className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-center
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center
             sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]"
             >
               <p>{data.content}</p>

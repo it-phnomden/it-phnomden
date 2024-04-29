@@ -43,6 +43,7 @@ module.exports = withMT({
       'siemreap': ['Siemreap', 'sans-serif'],
       'suwannaphum': ['Suwannaphum', 'sans-serif'],
       'taprom': ['Taprom', 'sans-serif'],
+      'jetBrains':['JetBrains Mono', 'monospace']
     },
     colors: {
       ...colors,
@@ -50,7 +51,7 @@ module.exports = withMT({
       emerald: colors.emerald,
     }
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"),],
   darkMode: 'class',
 });
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { bookInfo, qoutes } from "./data/book";
+import { bookInfo, quotes } from "./data/book";
 import { Carousel } from "@material-tailwind/react";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import {} from "react-icons/ri";
@@ -33,7 +33,7 @@ const BookStore = () => {
           </div>
         )}
       >
-        {qoutes.map((data, key) => (
+        {quotes.map((data, key) => (
           <span className="relative">
             <img
               key={key}
@@ -42,7 +42,7 @@ const BookStore = () => {
               className="h-full w-full object-cover"
             />
             <div
-              className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[50%] text-center
+              className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-center
             sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]"
             >
               <p>{data.content}</p>

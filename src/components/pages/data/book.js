@@ -11,7 +11,7 @@ export const bookInfo = [
   }
 ];
 
-export const qoutes = [
+export const quotes = [
   {
     id: 1,
     content: "Believe you can and you’re halfway there.",
@@ -19,7 +19,7 @@ export const qoutes = [
   },
   {
     id: 2,
-    content: "Most of us, swimming against the tides of trouble the world knows nothing about, need only a bit of praise or encouragement and we will make the goal. ",
+    content: "Most of us, swimming against the tides of trouble the world knows nothing about, need only a bit of praise or encouragement and we will make the goal.",
     author: "JEROME FLEISHMAN",
   },  {
     id: 3,
@@ -36,10 +36,10 @@ export const qoutes = [
   },  {
     id: 6,
     content: "Everyone has inside them a piece of good news. The good news is you don’t know how great you can be! How much you can love! What you can accomplish! And what your potential is.",
-    author: "ANNE FRANK",
+    author: "ANNE FRANK.",
   },  {
     id: 7,
     content: "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.",
-    author: "HELEN KELLER",
+    author: "HELEN KELLER.",
   },
 ];

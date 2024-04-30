@@ -61,20 +61,20 @@ const BookStore = () => {
           </span>
         ))}
       </Carousel>
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 mt-3 w-full">
+      <div className="grid grid-cols-3 gap-2 md:grid-cols-6 mt-3 w-full">
         {bookInfo.map((data, key) => (
           <div
             key={key}
             className="bg-gray-900 bg-opacity-10 dark:bg-black dark:bg-opacity-20
-         rounded-2xl p-2 flex flex-col gap-1"
+            rounded-ss-3xl p-1 flex flex-col gap-1"
           >
             <img
               src={data.cover}
               alt="not found.png"
-              className="w-fit object-contain rounded-lg"
+              className="w-fit object-contain rounded-ss-3xl"
             />
-            <p className="font-bold sm:text-[16px] text-[11px]">{data.title}</p>
-            <p className="opacity-50 sm:text-[16px] text-[11px]">{data.type}</p>
+            {/* <p className="font-bold sm:text-[16px] text-[11px]">{data.title}</p> */}
+            {/* <p className="opacity-50 sm:text-[16px] text-[11px]">{data.type}</p> */}
             <Link
               to="/it-phnomden/BookStoreDetail"
               state={data}

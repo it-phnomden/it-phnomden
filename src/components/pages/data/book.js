@@ -8,7 +8,43 @@ export const bookInfo = [
     cover: RichDadPoorDadCover,
     title: "Rich-Dad-Poor-Dad",
     type: "General Knowledge"
-  }
+  },  {
+    id: 2,
+    file: RichDadPoorDad,
+    cover: RichDadPoorDadCover,
+    title: "Rich-Dad-Poor-Dad",
+    type: "General Knowledge"
+  },  {
+    id: 3,
+    file: RichDadPoorDad,
+    cover: RichDadPoorDadCover,
+    title: "Rich-Dad-Poor-Dad",
+    type: "General Knowledge"
+  },  {
+    id: 4,
+    file: RichDadPoorDad,
+    cover: RichDadPoorDadCover,
+    title: "Rich-Dad-Poor-Dad",
+    type: "General Knowledge"
+  },  {
+    id: 5,
+    file: RichDadPoorDad,
+    cover: RichDadPoorDadCover,
+    title: "Rich-Dad-Poor-Dad",
+    type: "General Knowledge"
+  },  {
+    id: 6,
+    file: RichDadPoorDad,
+    cover: RichDadPoorDadCover,
+    title: "Rich-Dad-Poor-Dad",
+    type: "General Knowledge"
+  },  {
+    id: 7,
+    file: RichDadPoorDad,
+    cover: RichDadPoorDadCover,
+    title: "Rich-Dad-Poor-Dad",
+    type: "General Knowledge"
+  },
 ];
 
 export const quotes = [

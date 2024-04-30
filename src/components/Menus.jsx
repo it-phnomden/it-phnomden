@@ -16,7 +16,7 @@ const menus = [
     id: 2,
     src: betterup,
     title: "BETTER UP YOUR MIND",
-    page: "/it-phnomden/MusicCamp",
+    page: "/it-phnomden/BetterUp",
   },
   {
     id: 3,

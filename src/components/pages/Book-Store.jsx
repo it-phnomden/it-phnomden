@@ -5,42 +5,24 @@ import { Carousel } from "@material-tailwind/react";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import {} from "react-icons/ri";
 
-import p1 from "../../assets/books/quoteCover/1.jpg";
-import p2 from "../../assets/books/quoteCover/2.jpg";
-import p3 from "../../assets/books/quoteCover/3.jpg";
-import p4 from "../../assets/books/quoteCover/4.jpg";
-import p5 from "../../assets/books/quoteCover/5.jpg";
-import p6 from "../../assets/books/quoteCover/6.jpg";
-import p7 from "../../assets/books/quoteCover/7.jpg";
-import p8 from "../../assets/books/quoteCover/8.jpg";
-import p9 from "../../assets/books/quoteCover/9.jpg";
-import p10 from "../../assets/books/quoteCover/10.jpg";
-import p11 from "../../assets/books/quoteCover/11.jpg";
-import p12 from "../../assets/books/quoteCover/12.jpg";
 const quoteCover = [
-  p1,
-  p2,
-  p3,
-  p4,
-  p5,
-  p6,
-  p7,
-  p8,
-  p9,
-  p10,
-  p11,
-  p12
+  "https://images.unsplash.com/photo-1470019903270-8f285e50ddd9?q=80&w=1810&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1524756614325-ab25ba59e6e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1646733664215-8ed78bc93968?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1447798451861-0bc763df1c5e?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1610963566222-1837b2728b02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1603449139781-7c5de9d12393?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1545845408-d4f4d8365515?q=80&w=1850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 ];
 
 const BookStore = () => {
   return (
-    <div data-aos="fade-right" data-aos-offset="100"
-    className="p-2">
+    <div data-aos="fade-right" data-aos-offset="100" className="p-2">
       <Carousel
         autoplay={true}
         autoplayDelay={10000}
         loop={true}
-        className="rounded-lg sm:h-80 h-48 dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
+        className="rounded-lg relative sm:h-80 h-48 dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
@@ -56,24 +38,23 @@ const BookStore = () => {
         )}
       >
         {quotes.map((data, key) => (
-          <span className="relative">
+          <span>
             <img
               key={key}
               src={quoteCover[Math.floor(Math.random() * quoteCover.length)]}
               alt="Not found"
               className="h-full w-full object-cover rounded-lg"
             />
-            <div
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center
-              sm:w-[60%] w-[70%]
-            sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]"
-            >
-              <p>{data.content}</p>
-              <p className="flex items-center justify-center gap-2">
-                <RiDoubleQuotesL />
-                {data.author}
-                <RiDoubleQuotesR />
-              </p>
+            <div className="absolute top-0 left-0 w-full h-full">
+              <div className="flex flex-col items-center justify-center w-full h-full
+              sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
+                <p className="w-[60%] text-center">{data.content}</p>
+                <p className="flex items-center justify-center gap-2">
+                  <RiDoubleQuotesL />
+                  {data.author}
+                  <RiDoubleQuotesR />
+                </p>
+              </div>
             </div>
           </span>
         ))}

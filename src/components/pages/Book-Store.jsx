@@ -29,7 +29,9 @@ const BookStore = () => {
               <span
                 key={i}
                 className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
-                  activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+                  activeIndex === i
+                    ? "w-8 sm:bg-white bg-transparent"
+                    : "w-4 sm:bg-white/50 bg-transparent"
                 }`}
                 onClick={() => setActiveIndex(i)}
               />
@@ -45,16 +47,14 @@ const BookStore = () => {
               alt="Not found"
               className="h-full w-full object-cover rounded-lg"
             />
-            <div className="absolute top-0 left-0 w-full h-full">
-              <div className="flex flex-col items-center justify-center w-full h-full
-              sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
-                <p className="w-[60%] text-center">{data.content}</p>
-                <p className="flex items-center justify-center gap-2">
-                  <RiDoubleQuotesL />
-                  {data.author}
-                  <RiDoubleQuotesR />
-                </p>
-              </div>
+            <div className="absolute w-full h-full top-0 text-center flex flex-col items-center justify-center
+            sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
+              <p className="w-[60%] h-fit">{data.content}</p>
+              <p className="h-fit flex gap-2">
+                <RiDoubleQuotesL />
+                {data.author}
+                <RiDoubleQuotesR />
+              </p>
             </div>
           </span>
         ))}

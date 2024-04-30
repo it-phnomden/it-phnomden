@@ -48,9 +48,9 @@ const BookStore = () => {
               className="h-full w-full object-cover rounded-lg"
             />
             <div className="absolute w-full h-full top-0 text-center flex flex-col items-center justify-center
-            sm:text-2xl text-[11px] dark:drop-shadow-[1px_1px_1px_rgba(0,0,0,1)] drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
-              <p className="w-[60%] h-fit">{data.content}</p>
-              <p className="h-fit flex gap-2">
+            sm:text-2xl text-[11px] dark:drop-shadow-[0_0_0.5px_rgba(0,0,0,1)] drop-shadow-[0_0_0.5px_rgba(255,255,255,1)]">
+              <p className="w-[70%] h-fit font-bold">{data.content}</p>
+              <p className="h-fit flex gap-2 font-bold">
                 <RiDoubleQuotesL />
                 {data.author}
                 <RiDoubleQuotesR />

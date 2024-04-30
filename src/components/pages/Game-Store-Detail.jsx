@@ -8,15 +8,14 @@ const GameStoreDetail = () => {
   const gameInfo = location.state;
   return (
     <div
-      className="mt-20 p-2 w-full"
+      className="w-full mt-16"
       data-aos="fade-down"
       data-aos-offset="100"
     >
       <div
-        className="bg-gray-900 bg-opacity-10 dark:bg-black dark:bg-opacity-20
-         rounded-2xl p-5 flex flex-col gap-3"
-      >
+        className="flex flex-col">
         <YoutubeEmbed embedId={gameInfo.youtubeid} />
+        <div className="flex flex-col gap-5 p-3">
         <p className="font-bold text-xl sm:text-2xl">{gameInfo.title}</p>
         <p className="opacity-50 text-lg sm:text-xl">PC Game</p>
         <div
@@ -48,6 +47,7 @@ const GameStoreDetail = () => {
         >
           Link not yet available!
         </p>
+        </div>
       </div>
     </div>
   );

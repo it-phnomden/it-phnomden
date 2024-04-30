@@ -5,12 +5,11 @@ import { Carousel } from "@material-tailwind/react";
 
 const GameStore = () => {
   return (
-    <div data-aos="fade-right" data-aos-offset="100"
-    className="p-2">
+    <div data-aos="fade-right" data-aos-offset="100">
       <Carousel
         autoplay={true}
         loop={true}
-        className="rounded-lg sm:h-80 h-48 dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
+        className="sm:h-80 h-48 dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10"
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
@@ -34,7 +33,7 @@ const GameStore = () => {
           />
         ))}
       </Carousel>
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 mt-3 w-full">
+      <div className="grid grid-cols-2 gap-2 px-2 md:grid-cols-4 mt-3 w-full">
         {gameInfo.map((data, key) => (
           <div
             key={key}

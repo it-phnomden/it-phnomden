@@ -19,6 +19,10 @@
   .social-link>a{
     @apply mx-3 md:mx-5 md:hover:opacity-70
   }
+  .btn-group>button {
+    @apply py-3 dark:hover:bg-gray-700 hover:bg-slate-500 active:scale-110 duration-300
+    border-[1px] dark:border-gray-600 border-slate-500
+  }
 }
 
 @layer components {

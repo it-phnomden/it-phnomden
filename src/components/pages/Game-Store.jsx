@@ -29,7 +29,7 @@ const GameStore = () => {
             key={key}
             src={data.cover}
             alt="Not found"
-            className="h-full w-full object-cover object-top"
+            className="h-full w-full object-cover object-top rounded-bl-lg rounded-br-lg"
           />
         ))}
       </Carousel>

@@ -84,8 +84,8 @@ const BookStore = () => {
           >
             <img
               src={data.cover}
-              alt="not found.png"
-              className="w-fit object-contain rounded-tl-md rounded-tr-md"
+              alt={data.cover}
+              className="w-fit h-full object-cover rounded-tl-md rounded-tr-md"
             />
             {/* <p className="font-bold sm:text-[16px] text-[11px]">{data.title}</p> */}
             {/* <p className="opacity-50 sm:text-[16px] text-[11px]">{data.type}</p> */}

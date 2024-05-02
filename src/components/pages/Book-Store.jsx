@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { bookInfo, quotes } from "./data/book";
 import { Carousel } from "@material-tailwind/react";
@@ -16,6 +16,7 @@ const quoteCover = [
 ];
 
 const BookStore = () => {
+  const [bookType, setBookType] = useState("ITs");
   return (
     <div data-aos="fade-right" data-aos-offset="100">
       <Carousel
@@ -64,20 +65,23 @@ const BookStore = () => {
         ))}
       </Carousel>
       <div className="btn-group grid grid-cols-6 mb-1">
-        <button className="col-span-3">General Knowledge</button>
-        <button>ITs</button>
-        <button className="col-span-2">Grade 12</button>
-        <button className="col-span-2">Architecture</button>
-        <button className="col-span-2">Grammars</button>
-        <button className="col-span-2">History</button>
-        <button className="col-span-2 rounded-bl-lg">Literature</button>
-        <button>Novel</button>
-        <button>Poem</button>
-        <button className="rounded-br-lg col-span-2">Tale</button>
+        <button onClick={()=> setBookType("All")}>All</button>
+        <button onClick={()=> setBookType("General Knowledge")} className="col-span-2">General Knowledge</button>
+        <button onClick={()=> setBookType("ITs")} >ITs</button>
+        <button onClick={()=> setBookType("Grade 12")} className="col-span-2">Grade 12</button>
+        <button onClick={()=> setBookType("Architecture")} className="col-span-2">Architecture</button>
+        <button onClick={()=> setBookType("Grammars")} className="col-span-2">Grammars</button>
+        <button onClick={()=> setBookType("History")} className="col-span-2">History</button>
+        <button onClick={()=> setBookType("Literature")} className="col-span-2 rounded-bl-lg">Literature</button>
+        <button onClick={()=> setBookType("Novel")} >Novel</button>
+        <button onClick={()=> setBookType("Poem")} >Poem</button>
+        <button onClick={()=> setBookType("Tale")} className="rounded-br-lg col-span-2">Tale</button>
       </div>
       <div className="grid grid-cols-3 gap-2 md:grid-cols-6 w-full px-2 mt-2">
         {bookInfo.map((data, key) => (
+          data.type === bookType ||bookType ==="All"?
           <div
+          data-aos="zoom-in" data-aos-offset="100"
             key={key}
             className="bg-gray-900 bg-opacity-10 dark:bg-black dark:bg-opacity-20
             rounded-lg flex flex-col"
@@ -87,17 +91,15 @@ const BookStore = () => {
               alt={data.cover}
               className="w-fit h-full object-cover rounded-tl-md rounded-tr-md"
             />
-            {/* <p className="font-bold sm:text-[16px] text-[11px]">{data.title}</p> */}
-            {/* <p className="opacity-50 sm:text-[16px] text-[11px]">{data.type}</p> */}
-            <Link
-              to="/it-phnomden/BookStoreDetail"
-              state={data}
+            <a
+              href={data.file}
+              download
               class="border-[1px] dark:border-gray-700 border-slate-600 rounded-bl-md rounded-br-md px-4 sm:py-2 py-[9px] flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out dark:hover:bg-opacity-30 dark:hover:border-gray-600 hover:bg-opacity-30 hover: active:scale-105 active:duration-100"
             >
               <span class="ease absolute right-0 -mt-12 h-72 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-500 group-hover:-translate-x-64"></span>
-              Get
-            </Link>
-          </div>
+              Download
+            </a>
+          </div>:""
         ))}
       </div>
     </div>

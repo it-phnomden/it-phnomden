@@ -89,12 +89,12 @@ const BookStore = () => {
             <img
               src={data.cover}
               alt={data.cover}
-              className="h-52 object-cover object-top rounded-tl-md rounded-tr-md"
+              className="sm:h-52 h-32 object-cover object-top rounded-tl-md rounded-tr-md"
             />
             <a
               href={data.file}
               download
-              class="border-[1px] dark:border-gray-700 border-slate-600 rounded-bl-md rounded-br-md px-4 sm:py-2 py-[9px] flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out dark:hover:bg-opacity-30 dark:hover:border-gray-600 hover:bg-opacity-30 hover: active:scale-105 active:duration-100"
+              class="border-[1px] dark:border-gray-700 border-slate-600 rounded-bl-md rounded-br-md px-4 sm:py-2 py-[5px] flex flex-col items-center group relative overflow-hidden transition duration-700 ease-in-out dark:hover:bg-opacity-30 dark:hover:border-gray-600 hover:bg-opacity-30 hover: active:scale-105 active:duration-100"
             >
               <span class="ease absolute right-0 -mt-12 h-72 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-500 group-hover:-translate-x-64"></span>
               Download

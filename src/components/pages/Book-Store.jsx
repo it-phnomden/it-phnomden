@@ -89,7 +89,7 @@ const BookStore = () => {
             <img
               src={data.cover}
               alt={data.cover}
-              className="sm:h-52 h-40 object-cover object-top rounded-tl-md rounded-tr-md"
+              className="sm:h-52 h-48 object-cover object-top rounded-tl-md rounded-tr-md"
             />
             <a
               href={data.file}

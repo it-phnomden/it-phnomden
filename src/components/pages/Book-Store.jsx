@@ -66,16 +66,16 @@ const BookStore = () => {
       </Carousel>
       <div className="btn-group grid grid-cols-6 mb-1">
         <button onClick={()=> setBookType("All")}>All</button>
-        <button onClick={()=> setBookType("General Knowledge")} className="col-span-2">General Knowledge</button>
+        <button onClick={()=> setBookType("General Knowledge")} className="col-span-3">General Knowledge</button>
+        <button onClick={()=> setBookType("Architecture")} className="col-span-2">Architecture</button>
         <button onClick={()=> setBookType("ITs")} >ITs</button>
         <button onClick={()=> setBookType("Grade 12")} className="col-span-2">Grade 12</button>
-        <button onClick={()=> setBookType("Architecture")} className="col-span-2">Architecture</button>
         <button onClick={()=> setBookType("Grammars")} className="col-span-2">Grammars</button>
-        <button onClick={()=> setBookType("History")} className="col-span-2">History</button>
-        <button onClick={()=> setBookType("Literature")} className="col-span-2 rounded-bl-lg">Literature</button>
+        <button onClick={()=> setBookType("Tale")}>Tale</button>
+        <button onClick={()=> setBookType("History")} className="col-span-2 rounded-bl-lg">History</button>
+        <button onClick={()=> setBookType("Literature")} className="col-span-2">Literature</button>
         <button onClick={()=> setBookType("Novel")} >Novel</button>
-        <button onClick={()=> setBookType("Poem")} >Poem</button>
-        <button onClick={()=> setBookType("Tale")} className="rounded-br-lg col-span-2">Tale</button>
+        <button onClick={()=> setBookType("Poem")} className="rounded-br-lg">Poem</button>
       </div>
       <div className="grid grid-cols-3 gap-2 md:grid-cols-6 w-full px-2 mt-2">
         {bookInfo.map((data, key) => (

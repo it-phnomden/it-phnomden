@@ -16,7 +16,7 @@ const quoteCover = [
 ];
 
 const BookStore = () => {
-  const [bookType, setBookType] = useState("ITs");
+  const [bookType, setBookType] = useState("All");
   return (
     <div data-aos="fade-right" data-aos-offset="100">
       <Carousel

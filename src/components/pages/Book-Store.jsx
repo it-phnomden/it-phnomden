@@ -72,7 +72,7 @@ const BookStore = () => {
         className="w-full outline-none py-3 pl-10 bg-transparent
         border-[1px] dark:border-gray-600 border-slate-500
         focus:bg-white focus:text-black  text-white"/>
-          <FaSearch className="absolute left-3 top-4" />
+          <FaSearch className="absolute left-3 top-4"/>
         </div>
         <button onClick={()=> setBookType("All")}>All</button>
         <button onClick={()=> setBookType("General Knowledge")} className="col-span-3">General Knowledge</button>

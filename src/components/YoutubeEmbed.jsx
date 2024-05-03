@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const YoutubeEmbed = ({ embedId }) => (
   <div className="overflow-hidden pb-[56.25%] relative h-0">
     <iframe
-      className='top-0 left-0 h-full w-full absolute'
+      className='top-0 left-0 h-full w-full absolute rounded-lg'
       width="853"
       height="480"
       src={`https://www.youtube.com/embed/${embedId}`}

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/it-phnomden/static/css/main.a224c09e.css",
-    "main.js": "/it-phnomden/static/js/main.927ec898.js",
+    "main.css": "/it-phnomden/static/css/main.79e38506.css",
+    "main.js": "/it-phnomden/static/js/main.442f2544.js",
     "static/media/ទស្សនះវិទ្យា.pdf": "/it-phnomden/static/media/ទស្សនះវិទ្យា.729a0266fc3195de1df3.pdf",
     "static/media/History of Cambodia by Troeng Ngea part 1.pdf": "/it-phnomden/static/media/History of Cambodia by Troeng Ngea part 1.48a06cb34ba3efc60b8c.pdf",
     "static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.pdf": "/it-phnomden/static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.55d3694088ec6ca38843.pdf",
@@ -207,11 +207,11 @@
     "static/media/ស្រីហិតោបទេស part 3.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 3.961dba62030cf3f61ef0.png",
     "static/media/ស្រីហិតោបទេស part 4.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 4.ed7351854adce75483c6.png",
     "index.html": "/it-phnomden/index.html",
-    "main.a224c09e.css.map": "/it-phnomden/static/css/main.a224c09e.css.map",
-    "main.927ec898.js.map": "/it-phnomden/static/js/main.927ec898.js.map"
+    "main.79e38506.css.map": "/it-phnomden/static/css/main.79e38506.css.map",
+    "main.442f2544.js.map": "/it-phnomden/static/js/main.442f2544.js.map"
   },
   "entrypoints": [
-    "static/css/main.a224c09e.css",
-    "static/js/main.927ec898.js"
+    "static/css/main.79e38506.css",
+    "static/js/main.442f2544.js"
   ]
 }

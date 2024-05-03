@@ -13,7 +13,8 @@ const BookStore = () => {
   useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
       let lowercaseValue = searchValue.toLowerCase();
-      setFilterValue(lowercaseValue)
+      setFilterValue(lowercaseValue);
+      setBookType('All');
     }, 500);
     return () => clearTimeout(delayDebounceFn);
   }, [searchValue]);
@@ -69,24 +70,23 @@ const BookStore = () => {
         <div className="relative col-span-6">
         <input type="text" placeholder="Search.." 
         autoComplete="off"
-        // value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
         className="w-full outline-none py-3 pl-10 bg-transparent
         border-[1px] dark:border-gray-600 border-slate-500
         focus:bg-white focus:text-black  text-white"/>
           <FaSearch className="absolute left-3 top-4"/>
         </div>
-        <button onClick={()=> setBookType("All")}>All</button>
-        <button onClick={()=> setBookType("General Knowledge")} className="col-span-3">General Knowledge</button>
-        <button onClick={()=> setBookType("Architecture")} className="col-span-2">Architecture</button>
-        <button onClick={()=> setBookType("ITs")} >ITs</button>
-        <button onClick={()=> setBookType("Grade 12")} className="col-span-2">Grade 12</button>
-        <button onClick={()=> setBookType("Grammars")} className="col-span-2">Grammars</button>
-        <button onClick={()=> setBookType("Tale")}>Tale</button>
-        <button onClick={()=> setBookType("History")} className="col-span-2 rounded-bl-lg">History</button>
-        <button onClick={()=> setBookType("Literature")} className="col-span-2">Literature</button>
-        <button onClick={()=> setBookType("Novel")} >Novel</button>
-        <button onClick={()=> setBookType("Poem")} className="rounded-br-lg">Poem</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("All") } }>All</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("General Knowledge")} } className="col-span-3">General Knowledge</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("Architecture") } } className="col-span-2">Architecture</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("ITs") } } >ITs</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("Grade 12") } } className="col-span-2">Grade 12</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("Grammars") } } className="col-span-2">Grammars</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("Tale") } }>Tale</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("History") } } className="col-span-2 rounded-bl-lg">History</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("Literature") } } className="col-span-2">Literature</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("Novel") } } >Novel</button>
+        <button onClick={()=>{setFilterValue(''); setBookType("Poem") } } className="rounded-br-lg">Poem</button>
       </div>
       <div className="grid grid-cols-3 gap-2 md:grid-cols-6 w-full px-2 mt-2">
         {bookInfo.map((data, key) => (

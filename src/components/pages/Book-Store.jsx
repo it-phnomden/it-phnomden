@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { bookInfo } from "./data/book";
-import { quotes, covers } from "./data/quote";
+import { quotes } from "./data/quote";
 import { Carousel } from "@material-tailwind/react";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import { FaSearch } from "react-icons/fa";
 
 const BookStore = () => {
   const [bookType, setBookType] = useState("All");
-  const [searchValue, setSearchValue] = useState("");
-
-  const handleOnChange = (event) => {
-    setSearchValue(event.target.value);
-  };
+  const [filterValue, setFilterValue] = useState('');
+  const [searchValue, setSearchValue] = useState('');
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => console.log(`I can see you're not typing. I can use "${searchValue}" now!`), 1000);
-    return () => clearTimeout(timeoutId);
+    const delayDebounceFn = setTimeout(() => {
+      let lowercaseValue = searchValue.toLowerCase();
+      setFilterValue(lowercaseValue)
+    }, 500);
+    return () => clearTimeout(delayDebounceFn);
   }, [searchValue]);
 
   return (
@@ -45,8 +45,8 @@ const BookStore = () => {
           <span>
             <img
               key={key}
-              src={covers[Math.floor(Math.random() * covers.length)]}
-              alt="Not found"
+              src={data.cover}
+              alt={data.cover}
               className="h-full w-full object-cover"
             />
             <div
@@ -68,7 +68,9 @@ const BookStore = () => {
       <div className="btn-group grid grid-cols-6 mb-1">
         <div className="relative col-span-6">
         <input type="text" placeholder="Search.." 
-        onChange={handleOnChange} value={searchValue}
+        autoComplete="off"
+        // value={searchValue}
+        onChange={(e) => setSearchValue(e.target.value)}
         className="w-full outline-none py-3 pl-10 bg-transparent
         border-[1px] dark:border-gray-600 border-slate-500
         focus:bg-white focus:text-black  text-white"/>
@@ -89,7 +91,7 @@ const BookStore = () => {
       <div className="grid grid-cols-3 gap-2 md:grid-cols-6 w-full px-2 mt-2">
         {bookInfo.map((data, key) => (
          (data.type === bookType ||bookType ==="All") &&
-         data.title.includes(searchValue) ?
+         data.title.toLowerCase().includes(filterValue) ?
           <div
           data-aos="zoom-in" data-aos-offset="100"
             key={key}

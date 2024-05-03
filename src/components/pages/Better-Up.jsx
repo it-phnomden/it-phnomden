@@ -33,8 +33,8 @@ const BetterUp = () => {
           <span>
             <img
               key={key}
-              src={covers[Math.floor(Math.random() * covers.length)]}
-              alt="Not found"
+              src={data.cover}
+              alt={data.cover}
               className="h-full w-full object-cover"
             />
             <div

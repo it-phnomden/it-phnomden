@@ -1,22 +1,23 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { bookInfo, quotes } from "./data/book";
+import React, { useEffect, useState } from "react";
+import { bookInfo } from "./data/book";
+import { quotes, covers } from "./data/quote";
 import { Carousel } from "@material-tailwind/react";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
-
-const quoteCover = [
-  "https://images.unsplash.com/photo-1470019903270-8f285e50ddd9?q=80&w=1810&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1524756614325-ab25ba59e6e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1646733664215-8ed78bc93968?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1447798451861-0bc763df1c5e?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1610963566222-1837b2728b02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1603449139781-7c5de9d12393?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1545845408-d4f4d8365515?q=80&w=1850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2717&q=80",
-];
+import { FaSearch } from "react-icons/fa";
 
 const BookStore = () => {
   const [bookType, setBookType] = useState("All");
+  const [searchValue, setSearchValue] = useState("");
+
+  const handleOnChange = (event) => {
+    setSearchValue(event.target.value);
+  };
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => console.log(`I can see you're not typing. I can use "${searchValue}" now!`), 1000);
+    return () => clearTimeout(timeoutId);
+  }, [searchValue]);
+
   return (
     <div data-aos="fade-right" data-aos-offset="100">
       <Carousel
@@ -44,7 +45,7 @@ const BookStore = () => {
           <span>
             <img
               key={key}
-              src={quoteCover[Math.floor(Math.random() * quoteCover.length)]}
+              src={covers[Math.floor(Math.random() * covers.length)]}
               alt="Not found"
               className="h-full w-full object-cover"
             />
@@ -65,6 +66,14 @@ const BookStore = () => {
         ))}
       </Carousel>
       <div className="btn-group grid grid-cols-6 mb-1">
+        <div className="relative col-span-6">
+        <input type="text" placeholder="Search.." 
+        onChange={handleOnChange} value={searchValue}
+        className="w-full outline-none py-3 pl-10 bg-transparent
+        border-[1px] dark:border-gray-600 border-slate-500
+        focus:bg-white focus:text-black  text-white"/>
+          <FaSearch className="absolute left-3 top-4" />
+        </div>
         <button onClick={()=> setBookType("All")}>All</button>
         <button onClick={()=> setBookType("General Knowledge")} className="col-span-3">General Knowledge</button>
         <button onClick={()=> setBookType("Architecture")} className="col-span-2">Architecture</button>
@@ -79,7 +88,8 @@ const BookStore = () => {
       </div>
       <div className="grid grid-cols-3 gap-2 md:grid-cols-6 w-full px-2 mt-2">
         {bookInfo.map((data, key) => (
-          data.type === bookType ||bookType ==="All"?
+         (data.type === bookType ||bookType ==="All") &&
+         data.title.includes(searchValue) ?
           <div
           data-aos="zoom-in" data-aos-offset="100"
             key={key}

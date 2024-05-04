@@ -68,10 +68,10 @@ const BetterUp = () => {
                 className="h-56 object-cover rounded-lg bg-black"
               />
               <p className="font-bold sm:text-[16px] text-[11px] h-fit">
-                {data.title}{" "}
+                {data.title}
               </p>
               <p className="sm:text-[16px] text-[11px] flex items-center gap-2">
-                {" "}
+                
                 <TiLightbulb size={24} className="dark:text-yellow-400 text-yellow-100"/> {data.itemtype}
               </p>
               <p className="opacity-50 sm:text-[13px] text-[10px]  p-1">

@@ -93,7 +93,7 @@ const BookStore = () => {
          (data.type === bookType ||bookType ==="All") &&
          data.title.toLowerCase().includes(filterValue) ?
           <div
-          data-aos="zoom-in" data-aos-offset="100"
+          data-aos="zoom-in" data-aos-offset="10"
             key={key}
             className="bg-gray-900 bg-opacity-10 dark:bg-black dark:bg-opacity-20
             rounded-lg flex flex-col"

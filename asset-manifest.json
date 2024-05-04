@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/it-phnomden/static/css/main.e37522f9.css",
-    "main.js": "/it-phnomden/static/js/main.6778b3f4.js",
+    "main.css": "/it-phnomden/static/css/main.3f3e7398.css",
+    "main.js": "/it-phnomden/static/js/main.3b1abe3c.js",
     "static/media/ទស្សនះវិទ្យា.pdf": "/it-phnomden/static/media/ទស្សនះវិទ្យា.729a0266fc3195de1df3.pdf",
     "static/media/History of Cambodia by Troeng Ngea part 1.pdf": "/it-phnomden/static/media/History of Cambodia by Troeng Ngea part 1.48a06cb34ba3efc60b8c.pdf",
     "static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.pdf": "/it-phnomden/static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.55d3694088ec6ca38843.pdf",
@@ -153,14 +153,11 @@
     "static/media/ប្រវត្តិសាស្រ្តកម្ពុជា និង វរជនខ្មែរ.jpg": "/it-phnomden/static/media/ប្រវត្តិសាស្រ្តកម្ពុជា និង វរជនខ្មែរ.03871a585edb5508f2cf.jpg",
     "static/media/រឿង សូផាត.png": "/it-phnomden/static/media/រឿង សូផាត.6cd0f86bf288d326f25c.png",
     "static/media/គណនាតាម Robot Software .jpg": "/it-phnomden/static/media/គណនាតាម Robot Software .21bcc82d40f2e95353f3.jpg",
-    "static/media/hfw.jpg": "/it-phnomden/static/media/hfw.71520a5e2f6aac7db6b5.jpg",
     "static/media/5 Strategies To Make Money Fast With YouTube.jpg": "/it-phnomden/static/media/5 Strategies To Make Money Fast With YouTube.3d1940dfd67f7f22c3f5.jpg",
-    "static/media/hzd.jpg": "/it-phnomden/static/media/hzd.fd11b26e492eab465401.jpg",
     "static/media/ភ្នំ-នាង-កង្រី.jpg": "/it-phnomden/static/media/ភ្នំ-នាង-កង្រី.eb4982e36a7a286acfa6.jpg",
     "static/media/អប់រំចរិយាស្រ្តី.jpg": "/it-phnomden/static/media/អប់រំចរិយាស្រ្តី.ad84564ecc90405503be.jpg",
     "static/media/តារាង-ពុម្ពអក្សរ-ខ្មែរ-យូនីកូដ 2015-11-22.png": "/it-phnomden/static/media/តារាង-ពុម្ពអក្សរ-ខ្មែរ-យូនីកូដ 2015-11-22.f265976c94dcc4bf3320.png",
     "static/media/សិល្បះតែងកំណាព្យ.jpg": "/it-phnomden/static/media/សិល្បះតែងកំណាព្យ.eac2f7ea21af25904230.jpg",
-    "static/media/Kena Bridge of Spirits.jpg": "/it-phnomden/static/media/Kena Bridge of Spirits.60e21d0f189580e707dc.jpg",
     "static/media/Basic YouTube Lesson.png": "/it-phnomden/static/media/Basic YouTube Lesson.4e1d892e093d348989dc.png",
     "static/media/bak-thmenh-archphkai.jpg": "/it-phnomden/static/media/bak-thmenh-archphkai.c6a06a754f241249bb5e.jpg",
     "static/media/គន្លឹះតែងសេចក្តី.jpg": "/it-phnomden/static/media/គន្លឹះតែងសេចក្តី.03e980abcf201274a038.jpg",
@@ -175,21 +172,16 @@
     "static/media/How to Think Like Bill Gates - Daniel Smith.jpg": "/it-phnomden/static/media/How to Think Like Bill Gates - Daniel Smith.30a21bd1d24e42c552aa.jpg",
     "static/media/វិញ្ញាសា ប្រវត្តិវិទ្យា.jpg": "/it-phnomden/static/media/វិញ្ញាសា ប្រវត្តិវិទ្យា.2d99b7f2d1a148572fd6.jpg",
     "static/media/ក្បួនវេទមន្ត.jpg": "/it-phnomden/static/media/ក្បួនវេទមន្ត.58fdfecd92608cf617bf.jpg",
-    "static/media/gow.jpg": "/it-phnomden/static/media/gow.22499d33f903ca36fb16.jpg",
     "static/media/អំពីប្រភពវប្បធម៌ខ្មែរ.jpg": "/it-phnomden/static/media/អំពីប្រភពវប្បធម៌ខ្មែរ.371acb5e3e8653c08de1.jpg",
     "static/media/Khmer Culture and Civilization - On Khmer Religions from Ancient History.jpg": "/it-phnomden/static/media/Khmer Culture and Civilization - On Khmer Religions from Ancient History.adef2671437337000d8f.jpg",
-    "static/media/got.jpg": "/it-phnomden/static/media/got.9fa9df901410cdf5e2a5.jpg",
     "static/media/សៀវភៅ គន្លឹះប្រើប្រាស់ MAC OS .jpg": "/it-phnomden/static/media/សៀវភៅ គន្លឹះប្រើប្រាស់ MAC OS .212ec4ad07ce9cc50b96.jpg",
     "static/media/Using-Excel-to-solve-math-1.png": "/it-phnomden/static/media/Using-Excel-to-solve-math-1.003d163d247ad6c499c6.png",
     "static/media/A Happy Married Life.jpg": "/it-phnomden/static/media/A Happy Married Life.7355c41294b6d5fddc21.jpg",
     "static/media/វិធីសាស្ត្រដើម្បីក្លាយជាអ្នកចម្រៀងល្បី.jpg": "/it-phnomden/static/media/វិធីសាស្ត្រដើម្បីក្លាយជាអ្នកចម្រៀងល្បី.202b4cd882ac30eb6c9a.jpg",
     "static/media/បញ្ហា និងដំណោះស្រាយ ចំណេះដឹងទូទៅ.jpg": "/it-phnomden/static/media/បញ្ហា និងដំណោះស្រាយ ចំណេះដឹងទូទៅ.eaf52a097bb137633ec1.jpg",
     "static/media/វប្បធម៌ទូទៅ.jpg": "/it-phnomden/static/media/វប្បធម៌ទូទៅ.f135b6773f4271bf2c64.jpg",
-    "static/media/The last of us.jpg": "/it-phnomden/static/media/The last of us.29aae824b558fd5f2a6b.jpg",
     "static/media/សំណួរ ចម្លើយប្រវត្តិវិទ្យាត្រៀមប្រឡងសញ្ញាប័ត្រទុតិយភូមិ.jpg": "/it-phnomden/static/media/សំណួរ ចម្លើយប្រវត្តិវិទ្យាត្រៀមប្រឡងសញ្ញាប័ត្រទុតិយភូមិ.eb35901555255bb45742.jpg",
     "static/media/ក្បួនសាខាវង្សត្រកូល.jpg": "/it-phnomden/static/media/ក្បួនសាខាវង្សត្រកូល.78606ef7ae8df667fc1b.jpg",
-    "static/media/lop.jpg": "/it-phnomden/static/media/lop.eb859fecbed0fd0e90b8.jpg",
-    "static/media/spm.jpg": "/it-phnomden/static/media/spm.0522a4ae59d8966b2467.jpg",
     "static/media/logo.png": "/it-phnomden/static/media/logo.575a79aa85e338061e4c.png",
     "static/media/មហាចោទល់ដែន.JPG": "/it-phnomden/static/media/មហាចោទល់ដែន.37d0a65fe35d6ff409e5.JPG",
     "static/media/ត្រៀមឆមាសទី2 ឆ្នាំ២០១៦(12-2).jpg": "/it-phnomden/static/media/ត្រៀមឆមាសទី2 ឆ្នាំ២០១៦(12-2).db35dd2648c49f86cbb7.jpg",
@@ -209,11 +201,11 @@
     "static/media/ស្រីហិតោបទេស part 3.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 3.961dba62030cf3f61ef0.png",
     "static/media/ស្រីហិតោបទេស part 4.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 4.ed7351854adce75483c6.png",
     "index.html": "/it-phnomden/index.html",
-    "main.e37522f9.css.map": "/it-phnomden/static/css/main.e37522f9.css.map",
-    "main.6778b3f4.js.map": "/it-phnomden/static/js/main.6778b3f4.js.map"
+    "main.3f3e7398.css.map": "/it-phnomden/static/css/main.3f3e7398.css.map",
+    "main.3b1abe3c.js.map": "/it-phnomden/static/js/main.3b1abe3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e37522f9.css",
-    "static/js/main.6778b3f4.js"
+    "static/css/main.3f3e7398.css",
+    "static/js/main.3b1abe3c.js"
   ]
 }

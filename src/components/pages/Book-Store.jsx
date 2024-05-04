@@ -73,7 +73,7 @@ const BookStore = () => {
         onChange={(e) => setSearchValue(e.target.value)}
         className="w-full outline-none py-3 pl-10 bg-transparent
         border-[1px] dark:border-gray-600 border-slate-500
-        focus:bg-white focus:text-black  text-white"/>
+        focus:bg-white focus:text-black focus:border-white text-white rounded-none"/>
           <FaSearch className="absolute left-3 top-4"/>
         </div>
         <button onClick={()=>{setFilterValue(''); setBookType("All") } }>All</button>

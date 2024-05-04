@@ -4,7 +4,7 @@ export const items = [
     itemcategory: 'article',
     title: "18 Habits That Will Make You Smarter",
     itemid: "https://www.lollydaskal.com/leadership/18-habits-that-will-make-you-smarter/",
-    imgcoverlink: "https://images.unsplash.com/photo-1474859569645-e0def92b02bc?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imgcoverlink: "https://images.unsplash.com/photo-1499257398700-43669759a540?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: '10',
     itemtype: 'Self-improvement',
   },{    

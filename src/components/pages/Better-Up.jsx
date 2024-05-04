@@ -67,14 +67,14 @@ const BetterUp = () => {
                 alt={data.imgcoverlink}
                 className="h-56 object-cover rounded-lg bg-black"
               />
-              <p className="font-bold sm:text-[16px] text-[11px] h-fit">
+              <p className="font-bold sm:text-[16px] text-[14px] h-fit">
                 {data.title}
               </p>
-              <p className="sm:text-[16px] text-[11px] flex items-center gap-2">
+              <p className="sm:text-[16px] text-[14px] flex items-center gap-2">
                 
                 <TiLightbulb size={24} className="dark:text-yellow-400 text-yellow-100"/> {data.itemtype}
               </p>
-              <p className="opacity-50 sm:text-[13px] text-[10px]  p-1">
+              <p className="opacity-50 sm:text-[14px] text-[13px]  p-1">
                 {data.duration}  minutes read
               </p>
               <a
@@ -89,16 +89,16 @@ const BetterUp = () => {
             <div
               key={key}
               className="bg-gray-900 bg-opacity-10 dark:bg-black dark:bg-opacity-20
-       rounded-2xl p-2 flex flex-col gap-3 col-span-2"
+       rounded-2xl p-2 flex flex-col gap-3 justify-between col-span-2"
             >
               <YoutubeEmbed embedId={data.itemid} />
-              <p className="font-bold sm:text-[16px] text-[11px] h-fit">
+              <p className="font-bold sm:text-[16px] text-[14px] h-fit">
                 {data.title}
               </p>
-              <p className="sm:text-[16px] text-[11px] flex items-center gap-2">
+              <p className="sm:text-[16px] text-[14px] flex items-center gap-2">
                 <TiLightbulb size={24} className="dark:text-yellow-400 text-yellow-100" /> {data.itemtype}
               </p>
-              <p className="opacity-50 sm:text-[13px] text-[10px] p-2">
+              <p className="opacity-50 sm:text-[14px] text-[13px] p-2">
                 {data.duration} minutes watch
               </p>
             </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/it-phnomden/static/css/main.e37522f9.css",
-    "main.js": "/it-phnomden/static/js/main.f7319554.js",
+    "main.js": "/it-phnomden/static/js/main.200750bd.js",
     "static/media/ទស្សនះវិទ្យា.pdf": "/it-phnomden/static/media/ទស្សនះវិទ្យា.729a0266fc3195de1df3.pdf",
     "static/media/History of Cambodia by Troeng Ngea part 1.pdf": "/it-phnomden/static/media/History of Cambodia by Troeng Ngea part 1.48a06cb34ba3efc60b8c.pdf",
     "static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.pdf": "/it-phnomden/static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.55d3694088ec6ca38843.pdf",
@@ -76,6 +76,7 @@
     "static/media/សៀវភៅអក្សរសិល្ប៍ខ្មែរ.png": "/it-phnomden/static/media/សៀវភៅអក្សរសិល្ប៍ខ្មែរ.d27d9409bf4838dcd142.png",
     "static/media/ក្បួនសាខាវង្សត្រកូល.pdf": "/it-phnomden/static/media/ក្បួនសាខាវង្សត្រកូល.d7b38509950000003c82.pdf",
     "static/media/khmer-E-book wordpress.pdf": "/it-phnomden/static/media/khmer-E-book wordpress.055a0abfa50d4a71692f.pdf",
+    "static/media/The-Power-of-Your-Subconscious-Mind-Joseph-Murphy.pdf": "/it-phnomden/static/media/The-Power-of-Your-Subconscious-Mind-Joseph-Murphy.fd7c603f09fe1f57baa5.pdf",
     "static/media/Rull Excel.pdf": "/it-phnomden/static/media/Rull Excel.6f2d6b5e526364d57346.pdf",
     "static/media/ត្រៀមឆមាសទី2 ឆ្នាំ២០១៦(12-2).pdf": "/it-phnomden/static/media/ត្រៀមឆមាសទី2 ឆ្នាំ២០១៦(12-2).315b24b890f0c36fef30.pdf",
     "static/media/THINK AND GROW RICH.pdf": "/it-phnomden/static/media/THINK AND GROW RICH.e728dd283238c313fb1a.pdf",
@@ -170,6 +171,7 @@
     "static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.png": "/it-phnomden/static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.e8e6a7781059d923e8e8.png",
     "static/media/ធនជ័យបណ្តាំប្រស្នា.jpg": "/it-phnomden/static/media/ធនជ័យបណ្តាំប្រស្នា.da1d2546dfa12297db38.jpg",
     "static/media/Cambodia_report_AW2_med_combined.jpg": "/it-phnomden/static/media/Cambodia_report_AW2_med_combined.c869a8b5149b31be69a7.jpg",
+    "static/media/The-Power-of-Your-Subconscious-Mind-Joseph-Murphy.jpg": "/it-phnomden/static/media/The-Power-of-Your-Subconscious-Mind-Joseph-Murphy.359387f15e6f0b5b9c16.jpg",
     "static/media/How to Think Like Bill Gates - Daniel Smith.jpg": "/it-phnomden/static/media/How to Think Like Bill Gates - Daniel Smith.30a21bd1d24e42c552aa.jpg",
     "static/media/វិញ្ញាសា ប្រវត្តិវិទ្យា.jpg": "/it-phnomden/static/media/វិញ្ញាសា ប្រវត្តិវិទ្យា.2d99b7f2d1a148572fd6.jpg",
     "static/media/ក្បួនវេទមន្ត.jpg": "/it-phnomden/static/media/ក្បួនវេទមន្ត.58fdfecd92608cf617bf.jpg",
@@ -208,10 +210,10 @@
     "static/media/ស្រីហិតោបទេស part 4.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 4.ed7351854adce75483c6.png",
     "index.html": "/it-phnomden/index.html",
     "main.e37522f9.css.map": "/it-phnomden/static/css/main.e37522f9.css.map",
-    "main.f7319554.js.map": "/it-phnomden/static/js/main.f7319554.js.map"
+    "main.200750bd.js.map": "/it-phnomden/static/js/main.200750bd.js.map"
   },
   "entrypoints": [
     "static/css/main.e37522f9.css",
-    "static/js/main.f7319554.js"
+    "static/js/main.200750bd.js"
   ]
 }

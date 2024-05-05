@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="flex social-link">
       <a
-          href="https://pisethseam.github.io/maportfolio/"
+          href="https://it-phnomden.github.io/maportfolio/"
           target="_blank"
           rel="noopener noreferrer"
         >

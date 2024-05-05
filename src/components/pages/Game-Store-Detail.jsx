@@ -14,7 +14,7 @@ const GameStoreDetail = () => {
     >
       <div
         className="flex flex-col">
-        <YoutubeEmbed embedId={gameInfo.youtubeid} className='rounded-tl-none rounded-tr-none' />
+        <YoutubeEmbed embedId={gameInfo.youtubeid} className=' sm:rounded-bl-lg sm:rounded-br-lg rounded-none' />
         <div className="flex flex-col gap-5 p-3">
         <p className="font-bold text-xl sm:text-2xl">{gameInfo.title}</p>
         <p className="opacity-50 text-lg sm:text-xl">PC Game</p>

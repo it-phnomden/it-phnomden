@@ -10,7 +10,7 @@ const GameStore = () => {
         autoplay={true}
         loop={true}
         className="sm:h-80 h-48 dark:bg-black dark:bg-opacity-20 bg-gray-900 bg-opacity-10
-        rounded-bl-lg rounded-br-lg"
+        sm:rounded-bl-lg sm:rounded-br-lg"
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
@@ -30,7 +30,7 @@ const GameStore = () => {
             key={key}
             src={data.cover}
             alt="Not found"
-            className="h-full w-full object-cover object-top px-2 pb-2 rounded-br-xl rounded-bl-xl"
+            className="h-full w-full object-cover object-top"
           />
         ))}
       </Carousel>

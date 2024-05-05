@@ -36,6 +36,7 @@ const GameStore = () => {
       <div className="grid grid-cols-2 gap-2 px-2 md:grid-cols-4 mt-3 w-full">
         {gameInfo.map((data, key) => (
           <div
+            data-aos="zoom-in" data-aos-offset="10"
             key={key}
             className="bg-gray-900 bg-opacity-10 dark:bg-black dark:bg-opacity-20
          rounded-2xl p-2 flex flex-col justify-between"

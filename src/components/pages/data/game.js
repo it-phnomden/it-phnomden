@@ -1,5 +1,14 @@
 export const gameInfo = [
   {
+    id: 0,
+    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1665460/header.jpg?t=1713163424',
+    title: "eFootball™ 2024",
+    passwd: null,
+    mainlink: 'https://store.steampowered.com/app/1665460/eFootball_2024/',
+    updatelink: null,
+    youtubeid: "7edTYTSRcaM",
+  },
+  {
     id: 1,
     cover: 'https://cdn.akamai.steamstatic.com/steam/apps/2215430/header.jpg?t=1714170012',
     title: "Ghost of Tsushima",

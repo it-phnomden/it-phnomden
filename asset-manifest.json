@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/it-phnomden/static/css/main.700949ca.css",
-    "main.js": "/it-phnomden/static/js/main.9328a3ce.js",
+    "main.js": "/it-phnomden/static/js/main.f10fbcd1.js",
     "static/media/ទស្សនះវិទ្យា.pdf": "/it-phnomden/static/media/ទស្សនះវិទ្យា.729a0266fc3195de1df3.pdf",
     "static/media/History of Cambodia by Troeng Ngea part 1.pdf": "/it-phnomden/static/media/History of Cambodia by Troeng Ngea part 1.48a06cb34ba3efc60b8c.pdf",
     "static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.pdf": "/it-phnomden/static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.55d3694088ec6ca38843.pdf",
@@ -56,6 +56,7 @@
     "static/media/33-Jack-Ma-Quotes.pdf": "/it-phnomden/static/media/33-Jack-Ma-Quotes.e61a7d629a538367111e.pdf",
     "static/media/សៀវភៅ គន្លឹះប្រើប្រាស់ MAC OS .pdf": "/it-phnomden/static/media/សៀវភៅ គន្លឹះប្រើប្រាស់ MAC OS .566da72621673da1d873.pdf",
     "static/media/33-Mark-Zukerberg-Quotes copy.pdf": "/it-phnomden/static/media/33-Mark-Zukerberg-Quotes copy.4fddee5d3b90d534f56a.pdf",
+    "static/media/The Secret - Rhonda Byrne.pdf": "/it-phnomden/static/media/The Secret - Rhonda Byrne.3a4b48bf6885fad9bddd.pdf",
     "static/media/ចោរ-ភ្នំ-ត្បែង.pdf": "/it-phnomden/static/media/ចោរ-ភ្នំ-ត្បែង.5625036dd6809c534c6a.pdf",
     "static/media/LOGICQUES- IQ.pdf": "/it-phnomden/static/media/LOGICQUES- IQ.00e58515b343a08145c7.pdf",
     "static/media/python-book-khmer.pdf": "/it-phnomden/static/media/python-book-khmer.a01dd3d32d0aefa56934.pdf",
@@ -114,6 +115,7 @@
     "static/media/word 2010.png": "/it-phnomden/static/media/word 2010.5b37e3413357f1c7e944.png",
     "static/media/វាសនានៃនាងណាក្រី.png": "/it-phnomden/static/media/វាសនានៃនាងណាក្រី.f0b1ce79e5232ea1b905.png",
     "static/media/History of Cambodia by Troeng Ngea part 1.png": "/it-phnomden/static/media/History of Cambodia by Troeng Ngea part 1.d4bbf863256e00ef52c6.png",
+    "static/media/The Secret - Rhonda Byrne.jpg": "/it-phnomden/static/media/The Secret - Rhonda Byrne.6093d6d40ec2dfc5e005.jpg",
     "static/media/coming-soon.png": "/it-phnomden/static/media/coming-soon.b2420d6754c2e60a201f.png",
     "static/media/How To Stop Worrying And Start Living - Dale Carnegie.png": "/it-phnomden/static/media/How To Stop Worrying And Start Living - Dale Carnegie.12c78d638ba0e382d8d4.png",
     "static/media/ITEnglish-Khmer-EnglishDictionaryver.png": "/it-phnomden/static/media/ITEnglish-Khmer-EnglishDictionaryver.43ddc88d8086693af8aa.png",
@@ -209,10 +211,10 @@
     "static/media/ស្រីហិតោបទេស part 4.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 4.ed7351854adce75483c6.png",
     "index.html": "/it-phnomden/index.html",
     "main.700949ca.css.map": "/it-phnomden/static/css/main.700949ca.css.map",
-    "main.9328a3ce.js.map": "/it-phnomden/static/js/main.9328a3ce.js.map"
+    "main.f10fbcd1.js.map": "/it-phnomden/static/js/main.f10fbcd1.js.map"
   },
   "entrypoints": [
     "static/css/main.700949ca.css",
-    "static/js/main.9328a3ce.js"
+    "static/js/main.f10fbcd1.js"
   ]
 }

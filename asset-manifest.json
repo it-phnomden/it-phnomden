@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/it-phnomden/static/css/main.700949ca.css",
-    "main.js": "/it-phnomden/static/js/main.f10fbcd1.js",
+    "main.js": "/it-phnomden/static/js/main.2a04515b.js",
     "static/media/ទស្សនះវិទ្យា.pdf": "/it-phnomden/static/media/ទស្សនះវិទ្យា.729a0266fc3195de1df3.pdf",
     "static/media/History of Cambodia by Troeng Ngea part 1.pdf": "/it-phnomden/static/media/History of Cambodia by Troeng Ngea part 1.48a06cb34ba3efc60b8c.pdf",
     "static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.pdf": "/it-phnomden/static/media/អត្ថបទគោល របស់ សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុ សែន.55d3694088ec6ca38843.pdf",
@@ -82,6 +82,7 @@
     "static/media/khmer-E-book wordpress.pdf": "/it-phnomden/static/media/khmer-E-book wordpress.055a0abfa50d4a71692f.pdf",
     "static/media/The-Power-of-Your-Subconscious-Mind-Joseph-Murphy.pdf": "/it-phnomden/static/media/The-Power-of-Your-Subconscious-Mind-Joseph-Murphy.fd7c603f09fe1f57baa5.pdf",
     "static/media/Rull Excel.pdf": "/it-phnomden/static/media/Rull Excel.6f2d6b5e526364d57346.pdf",
+    "static/media/Unlimited Memory - Kevin Horsley.pdf": "/it-phnomden/static/media/Unlimited Memory - Kevin Horsley.f4161010abd60244b2a1.pdf",
     "static/media/ត្រៀមឆមាសទី2 ឆ្នាំ២០១៦(12-2).pdf": "/it-phnomden/static/media/ត្រៀមឆមាសទី2 ឆ្នាំ២០១៦(12-2).315b24b890f0c36fef30.pdf",
     "static/media/THINK AND GROW RICH.pdf": "/it-phnomden/static/media/THINK AND GROW RICH.e728dd283238c313fb1a.pdf",
     "static/media/វិញ្ញាសាត្រៀមBacIIឆ្នាំ2016(6-7)PM.pdf": "/it-phnomden/static/media/វិញ្ញាសាត្រៀមBacIIឆ្នាំ2016(6-7)PM.42e5ef0fd98f41708b04.pdf",
@@ -90,6 +91,7 @@
     "static/media/មហាចោទល់ដែន.pdf": "/it-phnomden/static/media/មហាចោទល់ដែន.b903d49879710263c297.pdf",
     "static/media/English Khmer grammer.pdf": "/it-phnomden/static/media/English Khmer grammer.219c85caf9c90bae3b53.pdf",
     "static/media/How to Think Like Bill Gates - Daniel Smith.pdf": "/it-phnomden/static/media/How to Think Like Bill Gates - Daniel Smith.e1b9804bc935206a56c1.pdf",
+    "static/media/វេយ្យាករណ៍ភាសាអង់គ្លេស.pdf": "/it-phnomden/static/media/វេយ្យាករណ៍ភាសាអង់គ្លេស.b19d0c1ca1bf5854713b.pdf",
     "static/media/The Power Of Now - Eckhart Tolle.pdf": "/it-phnomden/static/media/The Power Of Now - Eckhart Tolle.d0f5e3446e11a9a21102.pdf",
     "static/media/សំណួរ ចម្លើយប្រវត្តិវិទ្យាត្រៀមប្រឡងសញ្ញាប័ត្រទុតិយភូមិ.pdf": "/it-phnomden/static/media/សំណួរ ចម្លើយប្រវត្តិវិទ្យាត្រៀមប្រឡងសញ្ញាប័ត្រទុតិយភូមិ.2ffd526e6b158cc11987.pdf",
     "static/media/A Happy Married Life.pdf": "/it-phnomden/static/media/A Happy Married Life.b673ac765073501c55e3.pdf",
@@ -148,6 +150,7 @@
     "static/media/Rich Dad Poor Dad - Robert Kiyosaki.png": "/it-phnomden/static/media/Rich Dad Poor Dad - Robert Kiyosaki.48e8d3a9fd26cfc92a3b.png",
     "static/media/ស៊ឹម អ្នកបរបើក_2.png": "/it-phnomden/static/media/ស៊ឹម អ្នកបរបើក_2.447a5395c99dbefc9299.png",
     "static/media/English Khmer grammer.png": "/it-phnomden/static/media/English Khmer grammer.f92b60889eeca0ced6ef.png",
+    "static/media/វេយ្យាករណ៍ភាសាអង់គ្លេស.png": "/it-phnomden/static/media/វេយ្យាករណ៍ភាសាអង់គ្លេស.04b1e40d58b5335519d7.png",
     "static/media/រឿងទុំទាវ.png": "/it-phnomden/static/media/រឿងទុំទាវ.23e8b02d5b72dd439128.png",
     "static/media/THINK AND GROW RICH.png": "/it-phnomden/static/media/THINK AND GROW RICH.5df5c3a60c269e0fb6a0.png",
     "static/media/Biology2016.png": "/it-phnomden/static/media/Biology2016.7be7865820ca52110c2f.png",
@@ -209,12 +212,13 @@
     "static/media/ស្រីហិតោបទេស part 1.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 1.49babcb7c366f106035a.png",
     "static/media/ស្រីហិតោបទេស part 3.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 3.961dba62030cf3f61ef0.png",
     "static/media/ស្រីហិតោបទេស part 4.png": "/it-phnomden/static/media/ស្រីហិតោបទេស part 4.ed7351854adce75483c6.png",
+    "static/media/Unlimited Memory - Kevin Horsley.jpg": "/it-phnomden/static/media/Unlimited Memory - Kevin Horsley.484978d4d73d876e42cc.jpg",
     "index.html": "/it-phnomden/index.html",
     "main.700949ca.css.map": "/it-phnomden/static/css/main.700949ca.css.map",
-    "main.f10fbcd1.js.map": "/it-phnomden/static/js/main.f10fbcd1.js.map"
+    "main.2a04515b.js.map": "/it-phnomden/static/js/main.2a04515b.js.map"
   },
   "entrypoints": [
     "static/css/main.700949ca.css",
-    "static/js/main.f10fbcd1.js"
+    "static/js/main.2a04515b.js"
   ]
 }

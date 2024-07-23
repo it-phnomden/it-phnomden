@@ -202,7 +202,10 @@ import book101 from "../../../assets/books/Poem/សូរសៀងសំនៀ�
 import image101 from "../../../assets/books/Poem/សូរសៀងសំនៀងម៉ែ និងកំណាព្យគាប់ដួងចិត្ត.png";
 import image102 from "../../../assets/books/Tale/ភ្នំ-នាង-កង្រី.jpg";
 import book102 from "../../../assets/books/Tale/ភ្នំ-នាង-កង្រី.pdf";
-
+import image103 from "../../../assets/books/General Knowledge/Unlimited Memory - Kevin Horsley.jpg";
+import book103 from "../../../assets/books/General Knowledge/Unlimited Memory - Kevin Horsley.pdf";
+import image104 from "../../../assets/books/Grammars/វេយ្យាករណ៍ភាសាអង់គ្លេស.png";
+import book104 from "../../../assets/books/Grammars/វេយ្យាករណ៍ភាសាអង់គ្លេស.pdf";
 
 
 export const bookInfo = [
@@ -919,5 +922,19 @@ export const bookInfo = [
     cover: image102,
     title: "ភ្នំ-នាង-កង្រី.pdf",
     type: "Tale"
+  },
+  {
+    id: 103,
+    file: book103,
+    cover: image103,
+    title: "Unlimited Memory - Kevin Horsley",
+    type: "General Knowledge"
+  },
+  {
+    id: 104,
+    file: book104,
+    cover: image104,
+    title: "វេយ្យាករណ៍ភាសាអង់គ្លេស",
+    type: "Grammars"
   }
 ];
